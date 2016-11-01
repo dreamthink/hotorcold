@@ -83,7 +83,28 @@ h1 {
 	font-size: 3em;
 	padding: 0.8em;
 	color: #fff;
+}
 
+.hottext {
+	color: #e74c3c;
+	font-family: "Fuego Fatuo";
+	font-size: 1.15em;
+}
+
+.coldtext {
+	color: #11a8ab;
+	font-family: "SnowTT";
+	font-size: 1.15em;
+}
+
+@font-face {
+	font-family: "Fuego Fatuo";
+	src: url(FuegoFatuo.ttf);
+}
+
+@font-face {
+	font-family: "SnowTT";
+	src: url(snowtt.ttf);
 }
 
 /*style for hidden modal*/
