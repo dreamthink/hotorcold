@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 var secretNumber,
 userGuess,
 feedback,
@@ -92,7 +92,6 @@ function pageLoad() {
 			return true;
 	 	} else if (userGuess % 1 !== 0) {
  			alert("Please enter integers only.");
- 			// validatedGuess = false;
  			return true;
  		} else if (pastGuesses.indexOf(userGuess) !== -1) {
  			alert("You guessed this number already!");
