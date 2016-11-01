@@ -4,4 +4,4 @@ Hot or Cold is a random number guessing game. A random secret number from 1 to 1
 
 http://emilychen.net/hotorcold/
 
-<img src="images/screenshot.png">
+<img src="images/screenshot.png" width="400px">
