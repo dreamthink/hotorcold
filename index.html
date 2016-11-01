@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Hot || Cold</title>
-		<!-- Meta Tags -->
+		<title>Hot or Cold - a number guessing game</title>
 		<meta charset="utf-8"/>
-		<!-- Stylesheets -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="styles/reset.css">
 		<link href='//fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles/style.css"/> 
 	</head>
 	<body>
-		<img src="images/screenshot.gif" width="400px">
 		<header> 
 			<nav> 
 				<ul class="clearfix">
@@ -24,13 +22,13 @@
 				<div class="content">
 					<h3>What do I do?</h3>
 					<div>
-						<p>This is a Hot or Cold Number Guessing Game. The game goes like this: </p>
+						<p>This is a Hot or Cold Number Guessing Game. The game goes like this:</p>
 						<ul>
 							<li>1. I pick a <strong>random secret number</strong> between 1 to 100 and keep it hidden.</li>
 							<li>2. You need to <strong>guess</strong> until you can find the hidden secret number.</li>
 							<li>3. You will <strong>get feedback</strong> on how close ("hot") or far ("cold") your guess is.</li>
 						</ul>
-						<p>So, Are you ready?</p>
+						<p>So, are you ready?</p>
 						<a class="close" href="#">Got It!</a>
 					</div>
 				</div>
@@ -52,6 +50,7 @@
 			
       		<p>Guess #<span id="count">0</span>!</p>
 			
+			Past guesses below:
 			<ul id="guessList" class="guessBox clearfix">
 
 			</ul>

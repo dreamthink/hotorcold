@@ -89,12 +89,14 @@ h1 {
 	color: #e74c3c;
 	font-family: "Fuego Fatuo";
 	font-size: 1.15em;
+	letter-spacing: 0.05em;
 }
 
 .coldtext {
 	color: #11a8ab;
 	font-family: "SnowTT";
 	font-size: 1.15em;
+	letter-spacing: 0.1em;
 }
 
 @font-face {
