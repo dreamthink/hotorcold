@@ -12,7 +12,7 @@ Additional game features:
 	<li>Game instructions are available by clicking the "?" in the top left corner.</li>
 </ul>
 
-<a href="http://www.emilychen.net/hotorcold/" target="_blank"><img src="images/screenshot.gif"></a>
+<center><a href="http://www.emilychen.net/hotorcold/" target="_blank"><img src="images/screenshot.gif"></a></center>
 
 <h3>BUILT WITH:</h3>
 HTML, CSS, JavaScript, jQuery
